@@ -1,0 +1,47 @@
+/* 클래스 셀렉터 */
+/* .클래스 이름 {내용} = 내용을 이름으로 축약 */
+.profile {
+    width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    font-size: 5vw;
+    font-family: 'nanumsquare';
+    color: #000000;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.position {
+    font-size: 3vw;
+    line-height: 0;
+}
+
+.introduction {
+    font-size: 3vw;
+    line-height: 1.2;
+}
+
+.content {
+    color: red;
+}
+
+/* 태그 셀렉터 */
+/* p 태그는 모두 가운데 정렬하겠다 (기본 스타일) */
+p {
+    text-align: center;
+    color: green;
+}
+
+/* id 셀렉터 */
+/* id 속성으로 사용 가능 */
+/* 스타일용으로는 쓰지 말 것 */
+#special {
+    font-size: 3vw;
+    text-align: center;
+    line-height: 1.2;
+    color: blue;
+}
