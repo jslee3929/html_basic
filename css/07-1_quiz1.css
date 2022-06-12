@@ -1,0 +1,30 @@
+.wrapper {
+    width: 800px;
+}
+
+.left-container {
+    width: 74%;
+    height: 200px;
+    /* background: cornflowerblue; */
+    float: left;
+}
+
+.writer-container {
+    height: 20%;
+    /* background: green; */
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.script {
+    height: 50%;
+    /* background: red; */
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.right-container {
+    width: 24%;
+    height: 200px;
+    float: right;
+}
