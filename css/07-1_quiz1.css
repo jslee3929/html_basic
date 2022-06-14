@@ -30,7 +30,7 @@
 }
 
 .script {
-    display: block;
+    /* display: block; */
     height: 50%;
     /* background: red; */
     margin-left: 5px;
