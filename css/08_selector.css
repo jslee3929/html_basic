@@ -1,0 +1,64 @@
+/* selector명(공백)li = 'selector 안에 있는 모든 li'이라는 뜻 */
+/* navbar class 안의 모든 li 태그는 inline-block을 가짐 */
+/* selector명>li = 직계자식인 li만 해당 (자식의 자식은 해당 X) */
+/* container div>div>p>span 식으로 중첩 가능하나 가독성 X */
+/* 짧고 명료하게 근처에서 끊을 것 */
+.navbar li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none; /* 링크 밑줄 제거 */    
+    color: black; /* 링크 색깔 제거 */
+}
+
+.wrapper {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-content {
+    width: 74%;
+    height: 200px;
+    /* background: cornflowerblue; */
+    float: left;
+}
+
+.writer {
+    height: 25%;
+    /* background: green; */
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+.blog-profile {
+    height: 100%;
+    vertical-align: middle;
+    float: left;
+}
+
+.blog-name {
+    float: left;
+}
+
+.script {
+    /* display: block; */
+    height: 50%;
+    /* background: red; */
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.blog-img {
+    width: 24%;
+    height: 200px;
+    float: right;
+}
