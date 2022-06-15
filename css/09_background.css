@@ -1,0 +1,56 @@
+.main-background {
+    width: 100%;
+    height: 500px;
+    
+    /* ../ = 상위폴더로 이동하라 (css파일이 css 폴더 내에 있음) */
+    /* 배경 이미지는 여러개 적용 가능 (로고 등을 띄울 때 사용) */
+    /* background-image: url(), url() */
+    background-image: url(../shoes.jpg);
+
+    /* 배경 이미지는 화면에 꽉 차지 않을 경우 기본적으로 반복됨 */
+    /* 반복 해제 옵션 */
+    background-repeat: no-repeat;
+    
+    /* background-size: cover = 배경을 div에 꽉 채워라 (그림이 잘려도 OK) */
+    /* background-size: contain = 배경이 잘리지 않게 하라 */
+    background-size: cover;
+    
+    /* 창 크기가 배경보다 작을 경우 어느 부분을 먼저 보여줄지 결정 */
+    background-position: center;
+    
+    /* background-attachment: fixed = 스크롤에 상관없이 배경 고정 */
+    /* filter: brightness(70%) 식으로 필터 입히기 가능 */
+    /* 안에 글씨 있으면 글씨에도 필터 입혀짐 */
+
+    /* margin collapse 현상 해결을 위해 내부 여백 설정 */
+    padding: 1px;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    /* div 2개가 겹쳐져 있을 때는 margin이 하나로 합쳐짐 */
+    /* margin collapse 현상 발생 */
+    margin-top: 200px;
+    margin-left: 60px;
+}
+
+.main-paragraph {
+    color: white;
+    font-size: 15px;
+    margin-top: -50px;
+    margin-left: 62px;
+    margin-bottom: 20px;
+    padding: 1px;
+}
+
+.main-button {
+    margin-top: 10px;
+    margin-left: 62px;
+    color: black;
+    font-weight: bold;
+    background: #faf884;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
