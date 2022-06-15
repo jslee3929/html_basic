@@ -1,0 +1,74 @@
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../shoes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 170px;
+    text-align: center;
+}
+
+.main-paragraph {
+    color: white;
+    font-size: 15px;
+    margin-top: -50px;
+    text-align: center;
+    padding: 1px;
+}
+
+.main-button {
+    color: black;
+    font-weight: bold;
+    background: #faf884;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    
+    /* position을 이용해 좌표 설정 가능 */
+    /* 내 원래 위치를 기준으로 이동 */
+    /* position: relative; */
+    /* 왼쪽에서 62픽셀 오른쪽으로 이동*/
+    /* left: 62px; */
+    /* 아래에서 5픽셀 위로 이동 */
+    /* bottom: 5px; */
+    /* position 속성을 쓰면 요소가 공중에 뜸 (float와 비슷) */
+
+    /* position: fixed = 현재 화면 기준으로 좌표 고정 */
+    /* (예시) 네이버페이 장바구니/구매하기 버튼 (스크롤 해도 하단 고정) */
+
+    /* position: absolute */
+    /* = 내 부모 태그 중 position: relative를 가진 태그 기준으로 좌표 이동 */
+    /* main-background에 position: relative를 주고 */
+    /* main-button에 position: absolute를 준 다음 */
+    /* bottom: 0px = background 그림의 최하단에 달라붙음 */
+
+    /* position: absolute 가운데 정렬하기 */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* width는 적절히 아무 값이나 넣기 */
+    width: 150px;
+}
+
+.sub-background {
+    width: 80%;
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: -28%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* width는 적절히 아무 값이나 넣기 */
+    width: 80%;
+}
