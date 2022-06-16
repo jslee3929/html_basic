@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- 링크 하나를 추가해서 호환성 문제 해결 -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/12_max_width.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-background">
+        <h4 class="main-title">Buy Our Shoes!</h4>
+        <p class="main-paragraph">We make the best shoes in the world.
+        <br>Gorgeous, Wonderful, Awesome, Great shoes for you.</p>
+        <button class="main-button">Go for the Shopping</button>
+    </div>
+
+    <div class="sub-background">
+        <h4>How we design our shoes</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Aliquid eius, doloremque accusantium, saepe inventore illo 
+            necessitatibus cum eligendi ad sint molestias</p>
+    </div>
+
+    <br>
+
+    <!-- 위 박스와 동일하게 max-width 600px이나 padding 주니까 600px 넘어감 -->
+    <!-- width는 content 영역의 너비를 의미하기 때문 -->
+    <!-- (글의 너비가 600px이라는거지, 배경 포함 600px이라고는 안했다) -->
+    <!-- width와 padding, border는 별개임 -->
+    <div class="sub-background" style="padding: 50px">
+        <h4>How we design our shoes</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Aliquid eius, doloremque accusantium, saepe inventore illo 
+            necessitatibus cum eligendi ad sint molestias</p>
+    </div>
+</body>
+</html>

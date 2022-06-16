@@ -1,0 +1,73 @@
+/* 아래와 같이 짜두고 시작하면 편함 */
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+/* 브라우저마다 버튼, 인풋 등이 다르게 보일 수 있음 */
+/* css파일 최상단에 호환성 이슈 해결책을 첨부하면 좋음 */
+/* 구글에 normarlize.css 검색 */
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../shoes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 170px;
+    text-align: center;
+}
+
+.main-paragraph {
+    color: white;
+    font-size: 15px;
+    margin-top: -50px;
+    text-align: center;
+    padding: 1px;
+}
+
+.main-button {
+    color: black;
+    font-weight: bold;
+    background: #faf884;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    z-index: 2;
+}
+
+.sub-background {
+    /* 부모 width의 80% */
+    /* body 태그의 80% (화면 폭의 80%) */
+    width: 80%;
+    /* 최대폭 지정 */
+    max-width: 600px;
+    /* min-width, max-height 등도 있음 */
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: lightgray;
+    position: relative;
+    top: -200px;
+    z-index: 1;
+    /* content 영역이 아닌 실제 보이는 영역 size를 설정하라 */
+    /* 이러면 width가 content 너비 아니고 box 너비가 됨 */
+    box-sizing: border-box;
+    /* 기본값은 box-sizing: content box; */
+}
