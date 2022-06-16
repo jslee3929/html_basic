@@ -65,6 +65,7 @@
     padding: 20px;
     text-align: center;
     background-color: lightgray;
+    /* 아래로 들어간 박스 위로 띄우기 */
     position: relative;
     top: -40px;
     /* width는 적절히 아무 값이나 넣기 */
