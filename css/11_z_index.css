@@ -1,0 +1,52 @@
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../shoes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 170px;
+    text-align: center;
+}
+
+.main-paragraph {
+    color: white;
+    font-size: 15px;
+    margin-top: -50px;
+    text-align: center;
+    padding: 1px;
+}
+
+.main-button {
+    color: black;
+    font-weight: bold;
+    background: #faf884;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    /* z-index 값이 높을수록 앞에 위치 */
+    z-index: 2;
+}
+
+.sub-background {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: lightgray;
+    position: relative;
+    top: -200px;
+    z-index: 1;
+}
