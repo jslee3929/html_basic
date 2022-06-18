@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/13_form&input.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-background">
+        <h4 class="main-title">Buy Our Shoes!</h4>
+        <p class="main-paragraph">We make the best shoes in the world.
+        <br>Gorgeous, Wonderful, Awesome, Great shoes for you.</p>
+        <button class="main-button">Go for the Shopping</button>
+    </div>
+
+    <div class="sub-background">
+        <h4>How we design our shoes</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Aliquid eius, doloremque accusantium, saepe inventore illo 
+            necessitatibus cum eligendi ad sint molestias</p>
+    </div>
+
+    <!-- form 태그의 역할: 작성한 내용을 어떤 경로와 방식으로 서버에 전달할지 결정  -->
+    <!-- <form action="경로" method="방식"></form> -->
+    <form>
+        <!-- input 태그 하나마다 input 영역이 추가됨 -->
+        <input type="text" value="value=미리 채워진 값" class="text-input">
+        <input type="text" name="name=서버 개발 시 인풋 이름 지정">
+        <br>
+        <input type="password">
+        <input type="email" placeholder="placeholder=배경글자">
+        <input type="submit">
+        <button type="submit">전송</button>
+        <br>
+        <input type="date">
+        <input type="checkbox">체크박스
+        <input type="radio">라디오박스
+        <br>
+        <select>
+            <option>드롭다운 박스 - 옵션1</option>
+            <option>드롭다운 박스 - 옵션2</option>
+            <option>드롭다운 박스 - 옵션3</option>
+        </select>
+        <textarea rows="2">큰 텍스트 Input (크기 지정 가능)</textarea>
+    </form>
+</body>
+</html>
