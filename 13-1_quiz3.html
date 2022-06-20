@@ -6,46 +6,64 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/13-1_quiz3.css" rel="stylesheet">
 </head>
-<body style="background-color: #2E2E2E;">
-    <div class="wrapper">
-        <div>
-            <h1>contact us</h1>
-        </div>
+<body>
+    <div class="main-background">
+        <h4 class="main-title">Buy Our Shoes!</h4>
+        <p class="main-paragraph">We make the best shoes in the world.
+        <br>Gorgeous, Wonderful, Awesome, Great shoes for you.</p>
+        <button class="main-button">Go for the Shopping</button>
+    </div>
 
-        <div class="email">
-            <p>Your Email</p>
-            <form>
-                <input type="text" placeholder="email@example.com">
-            </form>
-        </div>
+    <div class="sub-background">
+        <h4>How we design our shoes</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Aliquid eius, doloremque accusantium, saepe inventore illo 
+            necessitatibus cum eligendi ad sint molestias</p>
+    </div>
+    
+    <div class="contact-background">
+        <div class="contact-wrapper">
+            <div>
+                <h1>contact us</h1>
+            </div>
 
-        <div class="first-name">
-            <p>First name</p>
-            <form>
-                <input type="text">
-            </form>
-        </div>
+            <div class="email-box">
+                <p>Your Email</p>
+                <form>
+                    <input class="form-input" type="email" placeholder="email@example.com">
+                </form>
+            </div>
 
-        <div class="last-name">
-            <p>Last name</p>
-            <form>
-                <input type="text">
-            </form>
-        </div>
+            <div class="w-50">
+                <p>First name</p>
+                <form>
+                    <input class="form-input" type="text">
+                </form>
+            </div>
 
-        <div class="message">
-            <p>Message</p>
-            <form>
-                <textarea rows="10" style="resize: none; width: 100%;"></textarea>
-            </form>
-        </div>
+            <div class="w-50">
+                <p>Last name</p>
+                <form>
+                    <input class="form-input" type="text">
+                </form>
+            </div>
 
-        <div class="bottom">
-            <p>
-                <input type="checkbox" id="subscribe">
-                <label for="subscribe">Subscribe</label>
-            </p>
-            <button class="button">SEND</button>
+            <div class="message">
+                <p>Message</p>
+                <form>
+                    <!-- textarea class="A B" 식으로 짜면 A와 B 클래스 둘 다 사용 -->
+                    <textarea rows="10" style="resize: none; width: 100%;"></textarea>
+                </form>
+            </div>
+
+            <div class="bottom">
+                <p>
+                    <!-- input 태그의 id와 label 태그의 for를 통일하면 글자 눌러도 체크됨 -->
+                    <input id="subscribe" type="checkbox">
+                    <label for="subscribe">Subscribe</label>
+                </p>
+                <button class="button">SEND</button>
+            </div>
         </div>
     </div>
 </body>
