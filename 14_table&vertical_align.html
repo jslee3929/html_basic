@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="css/14_table&vertical_align.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div>
+        <table>
+            <!-- <tr> = 가로 행, <td> = 세로 행 -->
+            <!-- 항상 가로 행 안에 세로 행을 넣어야 함 -->
+            <!-- 제목용 세로 열 만들 땐 <th> -->
+            <!-- 제목 행 = <thead>, 일반 행 = <tbody> -->
+            <thead>
+                <tr>
+                    <th><p>동해물과</p><p>백두산이</p></th>
+                    <td style="vertical-align: top">2</td>
+                    <td style="vertical-align: bottom">3</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- vertical-align의 본래 목적 -->
+    <!-- (용도1) inline/inline-block 요소 간의 세로 정렬 -->
+    <!-- (용도2) table 안에서 세로 정렬 (top/middle/bottom)-->
+    <div>
+        <p style="font-size: 50px">greetings<span style="font-size:20px; vertical-align: middle;">안녕</span></p>
+    </div>
+    <div>
+        <!-- 이미지 옆 글자 세로 가운데 정렬 안되는 버그 있음 -->
+        <!-- 이미지 자체에 세로 가운데 정렬을 주면 정상작동 -->
+        <img src="https://mdn.mozillademos.org/files/12245/frame_image.svg" width="32" height="32" style="vertical-align: middle"><span style="vertical-align: middle">image with a default alignment.</span>
+    </div>
+
+    <!-- (참고) display: inline = 폭과 너비가 없는 요소 -->
+    <!-- (예시) inline 요소인 <span> 태그는 줄을 바꿔 입력해도 옆으로만 입력됨 -->
+    <!-- inline 요소는 폭과 너비 지정 불가능 -->
+    <span>마르고</span>
+    <span>닳도록</span>
+
+    <!-- (참고) div 태그로 표 만들기 -->
+    <div style="display: table">
+        <div style="display: table-row">
+            <div style="display: table-cell">21</div>
+            <div style="display: table-cell">23</div>
+        </div>
+    </div>
+</body>
+</html>

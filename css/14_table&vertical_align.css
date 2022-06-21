@@ -1,0 +1,9 @@
+td, th {
+    border: 1px solid black;
+}
+
+table {
+    /* table은 기본적으로 셀 사이에 틈이 존재 */
+    /* 아래 옵션으로 셀 사이 틈 제거 */
+    border-collapse: collapse;
+}
