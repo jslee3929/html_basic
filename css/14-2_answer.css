@@ -1,0 +1,42 @@
+td,th {
+    /* border: 1px solid black; */
+}
+
+.cart-background {
+    width: 100%;
+    background-color: #c2d3de;
+    padding: 30px;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+/* .cart-table td, th라고 쓰면 */
+/* cart-table 안의 td와 모든 th를 지칭 */
+.cart-table td, .cart-table th {
+    padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+}
+
+/* nth-child 셀렉터 */
+/* 원하는 n번째 요소만 스타일링 */
+.cart-table th:nth-child(2) {
+    /* 셀의 width는 max-width와 동일한 뜻 */
+    /* 1열만 폭 조절해도 나머지 열도 셀 폭 조정됨 */
+    width: 400px;
+}
+
+/* 짝수 td에만 스타일링 (홀수는 odd) */
+/* .cart-table td:nth-child(even) {
+    color: red;
+} */
+
+/* 3의 배수 td에만 스타일링
+.cart-table td:nth-child(3n+0) {
+    color: red;
+} */
