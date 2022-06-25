@@ -1,0 +1,69 @@
+.cart-background {
+    width: 100%;
+    background-color: #c2d3de;
+    padding: 30px;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.cart-table td, .cart-table th {
+    padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+}
+
+.cart-table th:nth-child(2) {
+    width: 400px;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    /* 버튼에 마우스 갖다대면 누를 수 있게 바뀜 */
+    cursor: pointer;
+}
+
+/* psuedo-class */
+/* 버튼에 마우스 올렸을 때 */
+.btn:hover {
+    background-color: chocolate;
+}
+/* input, button, div 등 커서 찍혀있을 때 스타일 */
+.btn:focus {
+    background-color: grey;
+}
+/* 클릭 중 스타일 */
+.btn:active {
+    background-color: brown;
+    border: 2px solid black;
+}
+/* hover, focus, active 순으로 적어야 제대로 동작함 */
+
+.input-test {
+    font-size: 20px;
+}
+.input-test:focus {
+    border-bottom: 2px solid red;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+/* 방문 전 링크 스타일링 */
+.custom-link:link {
+    color: violet;
+}
+
+.custom-link:visited {
+    color: black;
+}
