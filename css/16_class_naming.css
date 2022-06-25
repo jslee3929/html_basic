@@ -1,0 +1,37 @@
+/* OOCSS (Object Oriented CSS)
+클래스를 뼈대와 살점으로 분리
+(1) CSS 양이 줄어듦
+(2) 유지보수 편리해짐 */
+
+/* 뼈대 클래스 */
+.main-btn {
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* 살점 클래스 */
+.bg-red {
+    background: red;
+}
+
+.bg-blue {
+    background: blue;
+}
+
+/* Utility Class: 스타일 한두개만 들어있는 Class들 */
+.f-small {
+    font-size: 12px;
+}
+.f-mid {
+    font-size: 16px;
+}
+.f-lg {
+    font-size: 20px;
+}
+
+/* BEM = Block__Element--Modifier 룰 */
+/* class="덩어리이름__역할--세부특징" */
+/* 언더바 두 개 대신 - 하나로 퉁칠 수 있음 */
+
+/* React, Vue 쓰면 OOCSS나 BEM 안해도 됨 */
