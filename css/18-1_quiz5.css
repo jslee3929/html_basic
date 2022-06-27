@@ -1,0 +1,159 @@
+div, input, textarea {
+    box-sizing: border-box;
+}
+
+p, h4, h3, h2, h1, span, button {
+    transform: rotate(0.03deg);
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+body {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 400;
+}
+
+.nav-container {
+    background-color: beige;
+    /* display: flex를 쓰면 가로 배치가 쉬움 */
+    display: flex;
+    /* 자식 요소 가운데 정렬 */
+    /* 좌측 정렬 = flex-start, 우측 정렬 = flex-end */
+    justify-content: center;
+    /* 가로 배치 = row (기본값) 세로 배치 = column */
+    flex-direction: row;
+    /* width가 화면보다 크면 밑으로 보내고 싶을 때 */
+    /* flex-wrap: wrap; */
+    height: 50px;
+    /* 상하 가운데 정렬 */
+    align-items: center;
+}
+
+.nav-item {
+    /* display: flex 하의 item에서 width = max-width */
+    /* background-color: grey; */
+    margin: 25px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../shoes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 170px;
+    text-align: center;
+}
+
+.main-paragraph {
+    color: white;
+    font-size: 15px;
+    margin-top: -50px;
+    text-align: center;
+    padding: 1px;
+}
+
+.main-button {
+    color: black;
+    font-weight: bold;
+    background: #faf884;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    z-index: 2;
+}
+
+.sub-background {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: lightgray;
+    position: relative;
+    top: -40px;
+    z-index: 1;
+}
+
+.contact-background {
+    background-color: #2E2E2E;
+    padding : 30px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-wrapper {
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background-color: white;
+}
+
+.email-box {
+    width: 100%;
+    height: 90px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.w-50 {
+    width: 50%;
+    height: 90px;
+    float: left;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.message {
+    width: 100%;
+    padding: 5px;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    margin-left: auto;
+    background-color: #FFBF00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
