@@ -30,10 +30,10 @@ p, h4, h3, h2, h1, span, button {
     
     /* vh = 현재 브라우저 높이에 비례 */
     /* 50vw = 브라우저 높이의 50% */
-    width: 200px;
+    width: 300px;
     margin: 10px;
     text-align: center;
-    background: gray;
+    /* background: gray; */
 }
 
 /* Media Query 문법 */
@@ -45,7 +45,7 @@ p, h4, h3, h2, h1, span, button {
         height: 100vh;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
     }
 }
