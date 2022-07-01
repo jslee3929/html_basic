@@ -48,6 +48,11 @@ p, h4, h3, h2, h1, span, button {
         justify-content: center;
         align-items: center;
     }
+
+    .content-box {
+        width: 40%;
+
+    }
 }
 
 /* 미디어 쿼리 문법은 여러 개 사용 가능 */
