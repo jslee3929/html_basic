@@ -24,6 +24,10 @@ body {
     align-items: center;
 }
 
+.nav-emptybox {
+    flex-grow: 1;
+}
+
 .nav-item {
     margin: 25px;
 }

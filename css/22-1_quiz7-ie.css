@@ -24,27 +24,13 @@ body {
     align-items: center;
 }
 
-.ie-container {
-    padding: 1px;
-    height: 100%;
+.nav-emptybox {
+    flex-grow: 1;
 }
 
 .nav-item {
-    margin: 25px;
-}
-
-.ie-item {
-    margin: 25px;
-}
-
-.ie-left {
-    padding: 1px;
+    /* margin: 25px; */
     float: left;
-}
-
-.ie-right {
-    padding: 1px;
-    float: right;
 }
 
 .text-center {
