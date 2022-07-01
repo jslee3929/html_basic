@@ -1,0 +1,169 @@
+div, input, textarea {
+    box-sizing: border-box;
+}
+
+p, h4, h3, h2, h1, span, button {
+    transform: rotate(0.03deg);
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+body {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 400;
+}
+
+.nav-container {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+
+.ie-container {
+    padding: 1px;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 25px;
+}
+
+.ie-item {
+    margin: 25px;
+}
+
+.ie-left {
+    padding: 1px;
+    float: left;
+}
+
+.ie-right {
+    padding: 1px;
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../shoes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 170px;
+    text-align: center;
+}
+
+.main-paragraph {
+    color: white;
+    font-size: 15px;
+    margin-top: -50px;
+    text-align: center;
+    padding: 1px;
+}
+
+.main-button {
+    color: black;
+    font-weight: bold;
+    background: #faf884;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    z-index: 2;
+}
+
+.sub-background {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: lightgray;
+    position: relative;
+    top: -40px;
+    z-index: 1;
+}
+
+.contact-background {
+    background-color: #2E2E2E;
+    padding : 30px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-wrapper {
+    width: 80%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background-color: white;
+}
+
+.email-box {
+    width: 100%;
+    height: 90px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.w-50 {
+    width: 50%;
+    height: 90px;
+    float: left;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.message {
+    width: 100%;
+    padding: 5px;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    margin-left: auto;
+    background-color: #FFBF00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
