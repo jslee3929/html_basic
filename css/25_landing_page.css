@@ -43,6 +43,10 @@ body {
     font-size: 20px;
 }
 
+.header-button:hover {
+    background: #e2a937;
+}
+
 .header-image {
     display: block;
     position: absolute;
@@ -75,6 +79,10 @@ body {
     font-size: 20px;
 }
 
+.copy-button:hover {
+    background: #5261b4;
+}
+
 .service-bg {
     background: #5061ba;
     display: flex;
@@ -93,10 +101,8 @@ body {
 .service-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 60%;
     height: 60%;
-    /* background-color: white; */
 }
 
 .service-container i {
@@ -150,6 +156,7 @@ body {
     position: absolute;
     top: 100px;
     left: 30px;
+    width: 85%;
     background-color: none;
     color: #eee;
 }
@@ -200,4 +207,97 @@ body {
     box-sizing: border-box;
     background: #5061ba;
     color: white;
+}
+
+.company {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+    .header {
+        padding: 0px;
+        padding-top: 80px;
+        height: 850px;
+    }
+    .header-subject {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .header-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        text-align: center;
+    }
+    .header-button {
+        margin: auto;
+        display: block;
+    }
+    .header-image {
+        right: unset;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .service-bg {
+        height: 700px;
+        justify-content: unset;
+        padding: 50px;
+    }
+    .service-container {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .service-content {
+        /* background-color: white; */
+        margin: 40px;
+    }
+    .portfolio {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .service-bg {
+        justify-content: unset;
+        padding: 50px;
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header {
+        padding: 0px;
+        padding-top: 80px;
+        height: 850px;
+    }
+    .header-subject {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .header-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        text-align: center;
+    }
+    .header-button {
+        margin: auto;
+        display: block;
+    }
+    .header-image {
+        right: unset;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .service-bg {
+        justify-content: unset;
+        padding: 50px;
+        height: 1200px;
+    }
 }
