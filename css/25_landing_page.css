@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-div, input, textarea {
+div {
     box-sizing: border-box;
 }
 
@@ -143,6 +143,11 @@ body {
     color: white;
     text-align: left;
 }
+
+/* 이미지를 div의 background로 적용하고 아래와 같이 설정하면 이미지만 어둡게 가능 */
+/* .portfolio-item__img {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(portfolio-1.jpg);
+} */
 
 .portfolio-item h1 {
     position: absolute;
