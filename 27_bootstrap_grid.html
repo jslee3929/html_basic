@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 그리드 레이아웃 -->
+        <!-- row 안에 col 사용하면 균일하게 쪼개기 가능 -->
+        <!-- 1 row = 12칸 -->
+        <!-- col-n은 n칸만큼 차지하겠다는 뜻 -->
+        <!-- 합이 12가 되도록 만들기 -->
+        <!-- ex) col-3 = 4등분 -->
+        <!-- ex) col-8 + col-4 = 8:4로 쪼개겠다. -->
+
+        <!-- 반응형으로 그리드 쪼개기 -->
+        <!-- col-md-6 = md 사이즈 이상에서만 칸수 적용 -->
+        <!-- md 사이즈 이하에서는 일반 div처럼 세로로 정렬됨 -->
+        <!-- xl = 1200px, lg = 992px, md = 768px, sm = 576px -->
+
+        <!-- order 클래스 -->
+        <!-- order-n = 오름차순으로 div 정렬 -->
+        <!-- order에도 반응형 조건식 추가 가능 -->
+        <div class="row">
+            <div class="col-4 order-md-2">안녕하세요1</div>
+            <div class="col-4 order-md-3">안녕하세요2</div>
+            <div class="col-4 order-md-1">안녕하세요3</div>
+        </div>
+
+        <!-- 팁1) div 하나에 col 클래스 여러 개 써도 됨 -->
+        <!-- 팁2) 부트스트랩은 모바일 레이아웃 먼저 짜는게 쉬움 -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
