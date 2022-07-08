@@ -1,0 +1,35 @@
+/* 1. 같은 class명을 가진 css를 하단에 link하면 덮어씌워짐 (우선적용) */
+/* .custom {
+    color: white;
+} */
+
+/* 2. id 셀렉터 이용하면 우선적용 가능 */
+/* id="custom" */
+/* #custom {
+    color: white;
+} */
+
+/* 3. !important로 우선적용 */
+/* .custom {
+    color: white !important;
+} */
+
+/* 2,3번은 비추 */
+
+/* 4. specificity 높이기 (추천) */
+/* 더 구체적인 지목을 할수록 우선적용 */
+div.main-background .custom {
+    color: red;
+}
+
+div.main-background p.custom {
+    /* 얘가 적용됨 */
+    color: white;
+}
+
+/* 처음부터 셀렉터를 길게 쓰면 덮어쓰기 하기 어려우므로 최대한 짧게 스타일링 */
+
+/* 좋은 코드의 원칙 */
+/* 1. 나중에 수정/관리가 쉬운 코드 */
+/* 2. 확장성이 좋은 코드 (재활용 or 덧붙이기 가능) */
+/* 3. 양이 적은 코드 */

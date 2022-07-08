@@ -1,0 +1,91 @@
+<!-- CSS 덮어쓰기 -->
+<!-- 1. 같은 클래스명 하단에 쓰기 -->
+<!-- 2. 우선순위 높이기 -->
+<!-- 3. specificity 높이기 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/28_css_overwriting.css" rel="stylesheet">
+        <link href="css/28-1_alternative.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav class="nav-container">
+            <div class="nav-item">
+                <h1>ShoeShop</h1>
+            </div>
+            <div style="flex-grow: 1"></div>
+            <div class="nav-item"><a>
+                    <h4>Products</h4>
+                </a></div>
+            <div class="nav-item"><a>
+                    <h4>Services</h4>
+                </a></div>
+        </nav>
+
+        <div class="test">
+
+        </div>
+        
+        <div class="main-background">
+            <h4 class="main-title">Buy Our Shoes! Now On Sale</h4>
+            <p class="main-paragraph custom">We make the best shoes in the world.
+            <br>Gorgeous, Wonderful, Awesome, Great shoes for you.</p>
+            <button class="main-button">Go for the Shopping</button>
+        </div>
+    
+        <div class="sub-background">
+            <h4>How we design our shoes</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Aliquid eius, doloremque accusantium, saepe inventore illo 
+                necessitatibus cum eligendi ad sint molestias</p>
+        </div>
+        
+        <div class="contact-background">
+            <div class="contact-wrapper">
+                <div>
+                    <h1>contact us</h1>
+                </div>
+    
+                <div class="email-box">
+                    <p>Your Email</p>
+                    <form>
+                        <input class="form-input" type="email" placeholder="email@example.com">
+                    </form>
+                </div>
+    
+                <div class="w-50">
+                    <p>First name</p>
+                    <form>
+                        <input class="form-input" type="text">
+                    </form>
+                </div>
+    
+                <div class="w-50">
+                    <p>Last name</p>
+                    <form>
+                        <input class="form-input" type="text">
+                    </form>
+                </div>
+    
+                <div class="message">
+                    <p>Message</p>
+                    <form>
+                        <textarea rows="10" style="resize: none; width: 100%;"></textarea>
+                    </form>
+                </div>
+    
+                <div class="bottom">
+                    <p>
+                        <input id="subscribe" type="checkbox">
+                        <label for="subscribe">Subscribe</label>
+                    </p>
+                    <button class="button">SEND</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
