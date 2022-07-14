@@ -5,3 +5,7 @@
 .text-skyblue {
     color: #6fbaf8;
 }
+
+.border-skyblue {
+    border-bottom-color: #6fbaf8;
+}
