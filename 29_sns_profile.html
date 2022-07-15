@@ -16,8 +16,8 @@
 
 <body>
     <div class="container bg-light p-4">
-        <div class="container bg-white rounded">
-            <div class="d-flex align-items-center">
+        <div class="bg-white rounded pb-3">
+            <div class="d-flex align-items-center p-2">
                 <div class="flex-shrink-0">
                     <img src="profile-pic.png" width="100%">
                 </div>
@@ -31,7 +31,7 @@
                 </div>
             </div>
 
-            <table class="table border-white mt-4">
+            <table class="table border-white w-75 ms-4 mt-4">
                 <tbody>
                     <tr>
                         <th scope="row">Location</th>
@@ -52,7 +52,8 @@
                 </tbody>
             </table>
         </div>
-        <div class="container border-bottom p-0">
+
+        <div class="border-bottom mt-3 p-0">
             <ul class="nav">
                 <li class="nav-item border-bottom border-skyblue border-2 p-0">
                     <a class="nav-link active text-skyblue" aria-current="page" href="#">Profile</a>
@@ -60,40 +61,58 @@
             </ul>
         </div>
 
-        <div class="container rounded bg-white mt-4 mb-4 p-4">
-            <h4>Works</h4><br>
+        <div class="rounded bg-white mt-4 mb-4 p-4">
+            <h4>WORKS</h4><br>
             <p>Landing page design</p>
             <p>Flyer design</p>
             <p>Vue.js To-do app</p>
             <p>Shopping page design</p>
         </div>
 
-        <div class="container rounded bg-white mt-4 mb-4">
-            <div class="container p-4">
-                <h4>About</h4><br>
+        <div class="rounded bg-white mt-4 mb-4">
+            <div class="p-4">
+                <h4>ABOUT</h4><br>
                 <p>I am a front-end designer who is excellent at Bootstrap, Sass, Foundation. I have dealt lots of
                     in-house
                     design works and outsource things. If you want to check my portfolio, please visit Killiansven.com
                 </p>
             </div>
-            <div class="container mt-5 mb-4 border-bottom"></div>
-            <div class="container w-100">
-                <h4>Skills</h4><br>
-                <h4><span class="badge rounded-pill text-bg-light border">HTML5</span><span
-                        class="badge rounded-pill text-bg-light border">JavaScript</span><span
-                        class="badge rounded-pill text-bg-light border">CSS3</span><span
-                        class="badge rounded-pill text-bg-light border">Illustrator</span><span
-                        class="badge rounded-pill text-bg-light border">Photoshop</span></h4>
+            <div class="m-4 pt-4 pb-5 border-top">
+                <h4>SKILLS</h4><br>
+                <div class="container p-0">
+                    <div class="row row-cols-5">
+                        <div class="col pe-1">
+                            <span
+                                class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-2vw">HTML5</span>
+                        </div>
+                        <div class="col ps-1 pe-1">
+                            <span
+                                class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-2vw">JavaScript</span>
+                        </div>
+                        <div class="col ps-1 pe-1">
+                            <span
+                                class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-2vw">CSS3</span>
+                        </div>
+                        <div class="col ps-1 pe-1">
+                            <span
+                                class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-2vw">Illustrator</span>
+                        </div>
+                        <div class="col ps-1">
+                            <span
+                                class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-2vw">Photoshop</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="container rounded bg-white position-relative pt-4">
-            <div class="position-absolute top-0 start-50 translate-middle-x">
-                <!-- 불꽃 아이콘 -->
+        <div class="rounded bg-white pt-4 mb-5">
+            <div class="text-center">
+                <i class="fa-solid fa-fire-flame-simple fa-6x text-skyblue mb-3"></i>
                 <p>Find me at Linkedout.com</p>
-                <!-- Sign Up 버튼 -->
-                <!-- Already a member? -->
-                <p>Already a memeber?</p>
+                <button type="button" class="btn bg-skyblue text-white ps-4 pe-4 mt-3 mb-2"
+                    style="--bs-btn-hover-bg: #6fbaf8; --bs-btn-active-bg: #6fbaf8;">Sign Up</button><br>
+                <a href="#" class="text-decoration-none text-skyblue">Already a memeber?</a>
             </div>
         </div>
     </div>
