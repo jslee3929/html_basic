@@ -14,6 +14,28 @@ h1, h2, h3, h4, p {
     border-bottom-color: #6fbaf8 !important;
 }
 
-.fs-2vw {
-    font-size: 2vw;
+.fs-vw {
+    font-size: 0.7vw;
+}
+
+.profile-box {
+    border-right: 2px solid #f7f9fc !important;
+}
+
+.people {
+    visibility: visible;
+}
+
+@media screen and (max-width: 768px){
+    .profile-box {
+        border-right: none;
+    }
+
+    .fs-vw {
+        font-size: 1.8vw;
+    }
+
+    .people {
+        visibility: hidden;
+    }
 }

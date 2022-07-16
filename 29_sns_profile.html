@@ -14,43 +14,48 @@
     <link href="css/29_sns_profile.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="container bg-light p-4">
+<body class="bg-light">
+    <div class="container p-4">
         <div class="bg-white rounded pb-3">
-            <div class="d-flex align-items-center p-2">
-                <div class="flex-shrink-0">
-                    <img src="profile-pic.png" width="100%">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-12 profile-box">
+                    <div class="d-flex align-items-center p-2">
+                        <div class="flex-shrink-0">
+                            <img src="profile-pic.png" width="100%">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h2 class="mb-1 fw-bold">Killian Sven</h2>
+                            <p class="mb-1">Front-end Designer</p>
+                            <p class="text-skyblue mb-2"><i class="fa-solid fa-location-dot"></i>
+                                <span>서울 마포구</span>
+                            </p>
+                            <button type="button" class="btn btn-primary btn-lg border-0 bg-skyblue ps-4 pe-4">Contact</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex-grow-1 ms-3">
-                    <h2 class="mb-1">Killian Sven</h2>
-                    <p class="mb-1">Front-end Designer</p>
-                    <p class="text-skyblue mb-2"><i class="fa-solid fa-location-dot"></i>
-                        <span>서울 마포구</span>
-                    </p>
-                    <button type="button" class="btn btn-primary btn-lg border-0 bg-skyblue">Contact</button>
+                <div class="col-md-5 col-12">
+                    <table class="table border-white w-100 mt-4 ms-4">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Location</th>
+                                <td>서울 마포구</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Age</th>
+                                <td>90년생</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Experience</th>
+                                <td>신입</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">School</th>
+                                <td>천조국대 토목학과</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-
-            <table class="table border-white w-75 ms-4 mt-4">
-                <tbody>
-                    <tr>
-                        <th scope="row">Location</th>
-                        <td>서울 마포구</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Age</th>
-                        <td>90년생</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Experience</th>
-                        <td>신입</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">School</th>
-                        <td>천조국대 토목학과</td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
 
         <div class="border-bottom mt-3 p-0">
@@ -61,62 +66,100 @@
             </ul>
         </div>
 
-        <div class="rounded bg-white mt-4 mb-4 p-4">
-            <h4>WORKS</h4><br>
-            <p>Landing page design</p>
-            <p>Flyer design</p>
-            <p>Vue.js To-do app</p>
-            <p>Shopping page design</p>
-        </div>
-
-        <div class="rounded bg-white mt-4 mb-4">
-            <div class="p-4">
-                <h4>ABOUT</h4><br>
-                <p>I am a front-end designer who is excellent at Bootstrap, Sass, Foundation. I have dealt lots of
-                    in-house
-                    design works and outsource things. If you want to check my portfolio, please visit Killiansven.com
-                </p>
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="rounded bg-white mt-4 mb-4 p-4 pb-5">
+                    <h4 class="fw-bold">WORKS</h4><br>
+                    <p>Landing page design</p>
+                    <p>Flyer design</p>
+                    <p>Vue.js To-do app</p>
+                    <p>Shopping page design</p>
+                </div>
             </div>
-            <div class="m-4 pt-4 pb-5 border-top">
-                <h4>SKILLS</h4><br>
-                <div class="container p-0">
-                    <div class="row row-cols-5">
-                        <div class="col pe-1">
-                            <span
-                                class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-2vw">HTML5</span>
+            <div class="col-12 col-md-6">
+                <div class="rounded bg-white mt-4">
+                    <div class="p-4">
+                        <h4 class="fw-bold">ABOUT</h4><br>
+                        <p>I am a front-end designer who is excellent at Bootstrap, Sass, Foundation. I have dealt lots
+                            of
+                            in-house
+                            design works and outsource things. If you want to check my portfolio, please visit
+                            Killiansven.com
+                        </p>
+                    </div>
+                    <div class="m-4 pt-4 pb-5 border-top">
+                        <h4 class="fw-bold">SKILLS</h4><br>
+                        <div class="container p-0">
+                            <div class="row row-cols-5">
+                                <div class="col pe-1">
+                                    <span
+                                        class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-vw">HTML5</span>
+                                </div>
+                                <div class="col ps-1 pe-1">
+                                    <span
+                                        class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-vw">JavaScript</span>
+                                </div>
+                                <div class="col ps-1 pe-1">
+                                    <span
+                                        class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-vw">CSS3</span>
+                                </div>
+                                <div class="col ps-1 pe-1">
+                                    <span
+                                        class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-vw">Illustrator</span>
+                                </div>
+                                <div class="col ps-1">
+                                    <span
+                                        class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-vw">Photoshop</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col ps-1 pe-1">
-                            <span
-                                class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-2vw">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="rounded bg-white pt-4 pb-5 mt-4">
+                    <div class="text-center">
+                        <i class="fa-solid fa-fire-flame-simple fa-6x text-skyblue mb-3"></i>
+                        <p>Find me at Linkedout.com</p>
+                        <button type="button" class="btn bg-skyblue text-white ps-4 pe-4 mt-3 mb-2"
+                            style="--bs-btn-hover-bg: #6fbaf8; --bs-btn-active-bg: #6fbaf8;">Sign Up</button><br>
+                        <a href="#" class="text-decoration-none text-skyblue">Already a memeber?</a>
+                    </div>
+                </div>
+                <div class="people">
+                    <div class="mt-4 ms-4 pb-1 border-bottom border-2">
+                        <p>People You Might Know</p>
+                    </div>
+    
+                    <div class="d-flex align-items-center p-2">
+                        <div class="w-50 text-center">
+                            <img src="profile-pic.png" width="75%">
                         </div>
-                        <div class="col ps-1 pe-1">
-                            <span
-                                class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-2vw">CSS3</span>
+                        <div class="w-100">
+                            <h2 class="fs-6 fw-bold">Jason Derulo</h2>
+                            <p>Developer</p>
+                            <p class="text-skyblue"><i class="fa-solid fa-location-dot"></i>
+                                <span>Seoul</span>
+                            </p>
                         </div>
-                        <div class="col ps-1 pe-1">
-                            <span
-                                class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-2vw">Illustrator</span>
+                    </div>
+    
+                    <div class="d-flex align-items-center p-2">
+                        <div class="w-50 text-center">
+                            <img src="profile-pic.png" width="75%">
                         </div>
-                        <div class="col ps-1">
-                            <span
-                                class="badge rounded-pill text-black bg-white border w-100 p-1 pt-2 pb-2 fs-2vw">Photoshop</span>
+                        <div class="w-100">
+                            <h2 class="fs-6 fw-bold">Logan Daul</h2>
+                            <p>Developer</p>
+                            <p class="text-skyblue"><i class="fa-solid fa-location-dot"></i>
+                                <span>Seoul</span>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="rounded bg-white pt-4 mb-5">
-            <div class="text-center">
-                <i class="fa-solid fa-fire-flame-simple fa-6x text-skyblue mb-3"></i>
-                <p>Find me at Linkedout.com</p>
-                <button type="button" class="btn bg-skyblue text-white ps-4 pe-4 mt-3 mb-2"
-                    style="--bs-btn-hover-bg: #6fbaf8; --bs-btn-active-bg: #6fbaf8;">Sign Up</button><br>
-                <a href="#" class="text-decoration-none text-skyblue">Already a memeber?</a>
-            </div>
-        </div>
     </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
