@@ -29,11 +29,13 @@
                             <p class="text-skyblue mb-2"><i class="fa-solid fa-location-dot"></i>
                                 <span>서울 마포구</span>
                             </p>
-                            <button type="button" class="btn btn-primary btn-lg border-0 bg-skyblue ps-4 pe-4">Contact</button>
+                            <button type="button"
+                                class="btn btn-primary btn-lg border-0 bg-skyblue ps-4 pe-4">Contact</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-5 col-12">
+                    <!-- 테이블보다 row, col로 만드는 게 효율적 -->
                     <table class="table border-white w-100 mt-4 ms-4">
                         <tbody>
                             <tr>
@@ -87,6 +89,8 @@
                             Killiansven.com
                         </p>
                     </div>
+                    <!-- <hr> 태그 = 가로선 생성 -->
+                    <!-- <div class="vr"></div> = 세로선 생성 (height 설정 가능) -->
                     <div class="m-4 pt-4 pb-5 border-top">
                         <h4 class="fw-bold">SKILLS</h4><br>
                         <div class="container p-0">
@@ -130,7 +134,10 @@
                     <div class="mt-4 ms-4 pb-1 border-bottom border-2">
                         <p>People You Might Know</p>
                     </div>
-    
+                    <!-- 많은 부트스트랩 요소들은 사이즈가 em 으로 선언되어 있습니다.
+                    그래서 부모 div박스에 font-size : 00px 이렇게 주면 한번에 많은 사이즈들을 축소나 확대하실 수 있습니다.
+                    media object 부모 div박스에 font-size 아무렇게나 한번 줘보십시오.
+                    안에있는 글자들이 각각 알맞은 비율로 줄어듭니다.  -->
                     <div class="d-flex align-items-center p-2">
                         <div class="w-50 text-center">
                             <img src="profile-pic.png" width="75%">
@@ -138,12 +145,15 @@
                         <div class="w-100">
                             <h2 class="fs-6 fw-bold">Jason Derulo</h2>
                             <p>Developer</p>
+                            <!-- Bootstrap 홈페이지에 있는 Icons 메뉴를 활용하면 
+                            <svg> 이런 식으로 정의된 아이콘을 복사 붙여넣기할 수 있는데
+                            Font Awesome 이런 것 전부 첨부하는 것 보다 용량을 훨씬 줄일 수 있습니다.  -->
                             <p class="text-skyblue"><i class="fa-solid fa-location-dot"></i>
                                 <span>Seoul</span>
                             </p>
                         </div>
                     </div>
-    
+
                     <div class="d-flex align-items-center p-2">
                         <div class="w-50 text-center">
                             <img src="profile-pic.png" width="75%">
